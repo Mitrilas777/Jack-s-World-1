@@ -1,0 +1,24 @@
+// MyActor.h
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "MyActor.generated.h"
+
+UCLASS()
+class MYPROJECT_API AMyActor : public AActor
+{
+    GENERATED_BODY()
+
+public:
+    // Constructeur par défaut
+    AMyActor();
+
+protected:
+    // Appelé au début du jeu ou lors de la création de l'acteur
+    virtual void BeginPlay() override;
+
+public:
+    // Appelé à chaque frame
+    virtual void Tick(float DeltaTime) override;
+};
