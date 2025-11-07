@@ -1,0 +1,9 @@
+| Élément                   | Rôle                                                                                       |
+| ------------------------- | ------------------------------------------------------------------------------------------ |
+| **Meshes (objets 3D)**    | Modèles des personnages, décors, armes, etc.                                               |
+| **Textures**              | Images appliquées sur les objets pour leur donner un aspect réaliste (bois, métal, peau…). |
+| **Matériaux**             | Comportement visuel de la surface (brillance, rugosité, couleur, réflexion…).              |
+| **Éclairage (Lighting)**  | Lumières, ombres, ambiance.                                                                |
+| **Post-Processing**       | Effets visuels : flou, bloom, contraste, teinte, etc.                                      |
+| **Effets spéciaux (VFX)** | Feu, pluie, explosion, particules, etc.                                                    |
+| **Animations**            | Mouvements des personnages et objets.                 
